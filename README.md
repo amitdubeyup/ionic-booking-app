@@ -1,30 +1,78 @@
-# Ionic App Test
+# ionic-app
 
-This is a hybrid app projects .
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=flat&logo=ionic&logoColor=white)
 
-## How to use this template
+An Ionic project
 
-1. Clone above project or download this project on any folder of your computer.
-2. Goto in project
-3. Install npm, cordova, ionic, firebase, camera plugin.
-4. Run project via ionic command/cli.
-5. Test on local server
+## 🚀 Tech Stack
 
-### Some Usefull Command related to this project:
+- Angular
+- TypeScript
+- Ionic
 
-1. npm install -g ionic cordova
-2. ionic start test-two blank
-3. cd test-two
-4. ionic serve
-5. ionic cordova platform add ios
-6. ionic cordova run ios
-7. npm install angularfire2 --save
-8. npm install -g ionic@beta cordova typings
-9. npm install firebase angularfire2@2.0.0-beta.2 --save 
-10. typings install --save --global firebase
+## ✨ Features
 
-You can use these command according to your need.
+- Modern and scalable architecture
+- Type-safe development with TypeScript
 
-#### For help/Error Contact me.
+## 📦 Installation
 
-##### Author -- Amit Dubey
+```bash
+# Clone the repository
+git clone https://github.com/amitdubeyup/ionic-app.git
+cd ionic-app
+
+# Install dependencies
+npm install
+```
+
+## ⚙️ Configuration
+
+Create a `.env` file in the root directory:
+
+```bash
+cp .env.example .env
+```
+
+Update the `.env` file with your configuration values.
+
+## 🚀 Usage
+
+```bash
+# Build for production
+npm run build
+
+```
+
+## 📜 Available Scripts
+
+- `npm run clean` - ionic-app-scripts clean
+- `npm run build` - ionic-app-scripts build
+- `npm run lint` - ionic-app-scripts lint
+- `npm run ionic:build` - ionic-app-scripts build
+- `npm run ionic:serve` - ionic-app-scripts serve
+
+## 📁 Project Structure
+
+```
+ionic-app/
+├── src/
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── README.md
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Amit Dubey**
+
+- GitHub: [@amitdubeyup](https://github.com/amitdubeyup)
