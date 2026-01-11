@@ -20,13 +20,16 @@ import { SignupPage } from '../pages/signup/signup';
 import { WelcomePage } from '../pages/welcome/welcome';
 
 
+// Environment variables should be loaded by your build system (e.g. webpack/dotenv)
+// For Ionic/Angular, this often requires a specific environment file configuration
+// Here we reference standard environment variables for security
 export const firebaseConfig = {
-  apiKey: "AIzaSyBtPUgFfBKALmJyN3U7rq1y6sB1Geob8CU",
-  authDomain: "test-two-20255.firebaseapp.com",
-  databaseURL: "https://test-two-20255.firebaseio.com",
-  projectId: "test-two-20255",
-  storageBucket: "test-two-20255.appspot.com",
-  messagingSenderId: "603922330092"
+  apiKey: "PROCESS_ENV_FIREBASE_API_KEY",
+  authDomain: "PROCESS_ENV_FIREBASE_AUTH_DOMAIN",
+  databaseURL: "PROCESS_ENV_FIREBASE_DATABASE_URL",
+  projectId: "PROCESS_ENV_FIREBASE_PROJECT_ID",
+  storageBucket: "PROCESS_ENV_FIREBASE_STORAGE_BUCKET",
+  messagingSenderId: "PROCESS_ENV_FIREBASE_MESSAGING_SENDER_ID"
 }
 
 @NgModule({
@@ -61,11 +64,11 @@ export const firebaseConfig = {
     Camera,
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
     AngularFireDatabaseModule,
     AngularFireDatabase,
     AngularFireAuthModule,
     AngularFireAuth
   ]
 })
-export class AppModule {}
+export class AppModule { }
