@@ -12,9 +12,6 @@ Mobile application built with Angular, Ionic, providing a user interface for Ion
 ## 🛠️ Tech Stack
 *   **Node.js, Ionic, Angular, TypeScript**
 
-## 👨‍💻 Lead Maintainer
-[@amitdubeyup](https://github.com/amitdubeyup)
-
 ## 📦 Installation
 
 1.  **Clone the repository**:
@@ -29,6 +26,9 @@ Mobile application built with Angular, Ionic, providing a user interface for Ion
     ```bash
     npm start    # or python app.py
     ```
+
+## 👨‍💻 Lead Maintainer
+[@amitdubeyup](https://github.com/amitdubeyup)
 
 ## 📄 License
 This project is licensed under the **MIT License**.
